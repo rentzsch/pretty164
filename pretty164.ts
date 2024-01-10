@@ -13,8 +13,12 @@ export const pretty164 = (e164str: string) => {
     case 15: // Intl.
       return `+${range(1, 3)}-${range(3, 7)}-${range(7, 11)}-${range(11, 15)}`;
   }
+
+  // Will never be executed, here only so TypeScript understands we always return a string.
+  return e164str;
+
   // eslint-disable-next-line no-inner-declarations
   function range(start: number, end: number) {
     return e164str.substring(start, end);
   }
-}
+};
