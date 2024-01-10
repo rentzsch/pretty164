@@ -5,7 +5,7 @@ Reformats E.164 strings by inserting dashes.
 ### Usage
 
 ```ts
-import { pretty164 } from "https://deno.land/x/pretty164@1.0.0/mod.ts";
+import { pretty164 } from "https://deno.land/x/pretty164@$MODULE_VERSION/pretty164.ts";
 
 pretty164("+14155552671");
 //=> "+1-415-555-2671"
