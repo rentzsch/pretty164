@@ -37,4 +37,7 @@ await build({
 const packageJson = JSON.parse(Deno.readTextFileSync("./npm/package.json"));
 delete packageJson.devDependencies;
 delete packageJson.scripts;
-Deno.writeTextFileSync("./npm/package.json", JSON.stringify(packageJson, null, 2));
+Deno.writeTextFileSync(
+  "./npm/package.json",
+  JSON.stringify(packageJson, null, 2),
+);

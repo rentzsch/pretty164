@@ -4,12 +4,15 @@
 
 ### Added
 
-- Node and web support via [Deno to Node Transform](https://github.com/denoland/dnt) and <https://www.unpkg.com>.
+- Node and web support via
+  [Deno to Node Transform](https://github.com/denoland/dnt) and
+  <https://www.unpkg.com>.
 - [Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ### Fixed
 
-- Explicitly return string to explain to TypeScript the function won't return undefined.
+- Explicitly return string to explain to TypeScript the function won't return
+  undefined.
 - DOC import file name.
 
 ## [1.0.0] - 2024-01-10
