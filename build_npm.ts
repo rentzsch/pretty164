@@ -1,5 +1,5 @@
 #!/usr/bin/env -S deno run -A
-// ./build_npm.ts 1.1.0
+// ./build_npm.ts 1.1.1
 
 import { build, emptyDir } from "https://deno.land/x/dnt@0.39.0/mod.ts";
 

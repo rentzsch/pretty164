@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 2024-01-10
+
+### Fixed
+
+- DOC node CJS and ESM examples.
+
 ## [1.1.0] - 2024-01-10
 
 ### Added
@@ -22,5 +28,6 @@
 
 - Initial release for deno.
 
+[1.1.1]: https://github.com/rentzsch/pretty164/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/rentzsch/pretty164/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/rentzsch/pretty164/releases/tag/1.0.0
