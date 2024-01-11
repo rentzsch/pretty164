@@ -1,11 +1,18 @@
 # pretty164: Simple E.164 dash-inserter
 
-Reformats E.164 strings by inserting dashes.
+Reformats E.164 strings by inserting dashes. No dependancies.
 
 ### Usage
 
 ```ts
-import { pretty164 } from "https://deno.land/x/pretty164@$MODULE_VERSION/pretty164.ts";
+// node (after `npm install pretty164@1.1.0`):
+import { pretty164 } from "pretty164";
+
+// deno:
+import { pretty164 } from "https://deno.land/x/pretty164@1.1.0/pretty164.ts";
+
+// web esm:
+import { pretty164 } from "https://www.unpkg.com/pretty164@1.1.0/esm/pretty164.js";
 
 pretty164("+14155552671");
 //=> "+1-415-555-2671"
