@@ -13,6 +13,7 @@
 
 - Explicitly return string to explain to TypeScript the function won't return
   undefined.
+- deno fmt
 - DOC import file name.
 
 ## [1.0.0] - 2024-01-10

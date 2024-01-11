@@ -6,7 +6,8 @@ Reformats E.164 strings by inserting dashes. No dependancies.
 
 ```ts
 // node (after `npm install pretty164@1.1.0`):
-import { pretty164 } from "pretty164";
+const { pretty164 } = require("pretty164"); // .cjs
+import { pretty164 } from "pretty164"; // or .mjs or package.json type:"module"
 
 // deno:
 import { pretty164 } from "https://deno.land/x/pretty164@1.1.0/pretty164.ts";
